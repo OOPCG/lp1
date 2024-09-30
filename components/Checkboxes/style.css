@@ -1,0 +1,297 @@
+.checkboxes {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+}
+
+.checkboxes .state-layer {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  padding: 11px;
+  position: relative;
+}
+
+.checkboxes .container {
+  border-radius: 2px;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.checkboxes .instance-node {
+  height: 24px !important;
+  left: 8px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 24px !important;
+}
+
+.checkboxes .ripple {
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 40px;
+}
+
+.checkboxes .div {
+  border: 2px solid;
+  border-radius: 2px;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.checkboxes .type-unselected-state-pressed {
+  height: 48px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 48px !important;
+}
+
+.checkboxes.disabled {
+  opacity: 0.38;
+}
+
+.checkboxes.pressed {
+  border-radius: 100px;
+}
+
+.checkboxes .state-pressed {
+  overflow: hidden;
+}
+
+.checkboxes .state-enabled.error-indeterminate {
+  overflow: hidden;
+}
+
+.checkboxes .indeterminate.state-hovered {
+  background-color: #65558f14;
+}
+
+.checkboxes .state-hovered.error-indeterminate {
+  background-color: #b3261e14;
+  overflow: hidden;
+}
+
+.checkboxes .state-focused.error-unselected {
+  background-color: #b3261e1f;
+  overflow: hidden;
+}
+
+.checkboxes .state-pressed.indeterminate {
+  background-color: #65558f1f;
+}
+
+.checkboxes .state-pressed.error-selected {
+  background-color: #b3261e1f;
+}
+
+.checkboxes .state-focused.error-indeterminate {
+  background-color: #b3261e1f;
+  overflow: hidden;
+}
+
+.checkboxes .state-hovered.selected {
+  background-color: #65558f14;
+}
+
+.checkboxes .state-focused.error-selected {
+  background-color: #b3261e1f;
+}
+
+.checkboxes .state-focused.unselected {
+  background-color: #1d1b201f;
+}
+
+.checkboxes .state-focused.selected {
+  background-color: #65558f1f;
+}
+
+.checkboxes .error-selected.state-hovered {
+  background-color: #b3261e14;
+}
+
+.checkboxes .state-hovered.unselected {
+  background-color: #1d1b2014;
+}
+
+.checkboxes .state-enabled.error-unselected {
+  overflow: hidden;
+}
+
+.checkboxes .state-focused.indeterminate {
+  background-color: #65558f1f;
+}
+
+.checkboxes .state-pressed.error-indeterminate {
+  background-color: #b3261e1f;
+}
+
+.checkboxes .state-pressed.selected {
+  background-color: #65558f1f;
+}
+
+.checkboxes .error-unselected.state-hovered {
+  background-color: #b3261e14;
+  overflow: hidden;
+}
+
+.checkboxes .state-layer.state-disabled .container {
+  background-color: var(--m3-schemes-on-surface);
+}
+
+.checkboxes .state-layer.state-enabled.error-indeterminate .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.indeterminate.state-hovered .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-pressed.error-unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-enabled.unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-hovered.error-indeterminate .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-focused.error-unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-pressed.indeterminate .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-pressed.error-selected .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-focused.error-indeterminate .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-hovered.selected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-focused.error-selected .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.error-selected.state-enabled .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-focused.unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-enabled.indeterminate .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-enabled.selected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-focused.selected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.error-selected.state-hovered .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-hovered.unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-enabled.error-unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-focused.indeterminate .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-pressed.unselected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.state-pressed.error-indeterminate .container {
+  background-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.state-pressed.selected .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.error-unselected.state-hovered .container {
+  background-color: var(--m3-schemes-primary);
+}
+
+.checkboxes .state-layer.error-indeterminate .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.state-pressed .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.selected .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.error-selected .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.indeterminate .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.state-enabled.unselected .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.state-focused.error-unselected .div {
+  border-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.error-unselected.state-disabled .div {
+  border-color: var(--m3-schemes-on-surface-variant);
+}
+
+.checkboxes .state-layer.state-focused.unselected .div {
+  border-color: var(--m3-schemes-on-surface);
+}
+
+.checkboxes .state-layer.unselected.state-disabled .div {
+  border-color: var(--m3-schemes-on-surface);
+}
+
+.checkboxes .state-layer.state-hovered.unselected .div {
+  border-color: var(--m3-schemes-on-surface);
+}
+
+.checkboxes .state-layer.state-enabled.error-unselected .div {
+  border-color: var(--m3-schemes-error);
+}
+
+.checkboxes .state-layer.error-unselected.state-hovered .div {
+  border-color: var(--m3-schemes-error);
+}
